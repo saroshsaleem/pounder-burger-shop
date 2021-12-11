@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 10%;
+    color: white;
+    background-color: black;
+  }
+
+  .footer a{
+      text-decoration:none;
+      color:white;
+  }
