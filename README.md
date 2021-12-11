@@ -32,3 +32,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+<h1>Video Demo of Burger Shop</h1>
+<video width="400" controls>
+  <source src="pounder-burger-vid2.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
