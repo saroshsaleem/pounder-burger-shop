@@ -1,0 +1,44 @@
+.Navigation {
+  overflow: hidden;
+  top: 100px;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+}
+
+.Nav{
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 30px 60px;
+  border-right: 1px solid white;
+  border-right-width: 100%;
+}
+
+.Nav:hover {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  float: left;
+  display: block;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 30px 60px;
+  border-right: 1px solid white;
+  border-right-width: 100%;
+}
