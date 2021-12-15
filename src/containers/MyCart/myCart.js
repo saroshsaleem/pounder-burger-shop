@@ -71,7 +71,7 @@ const MyCart = props => {
         let distanceMetre= google.maps.geometry.spherical.computeDistanceBetween(gps1,gps2)/1000;
         console.log(distanceMetre);
          if(parseInt(distanceMetre)<=5 && parseInt(distanceMetre)>0){
-             Geocode.setApiKey("AIzaSyD2qjZmiw1Z6HXkhaoOOX08rlo0h47gATM");
+             Geocode.setApiKey("PUT_YOUR_API_KEY");
              Geocode.setLanguage("en");
              Geocode.setRegion("au");
              Geocode.setLocationType("ROOFTOP");
