@@ -1,0 +1,50 @@
+.MyCart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+button{
+    border:none;
+    background-color:white
+}
+
+.choose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pick{
+    margin:40px 10px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    width: auto;
+    border: 1px solid green;
+    font-size: 40px;
+}
+.pick:hover{
+    background-color: green;
+    color: white;
+}
+.pick:active{
+    background-color: green;
+    color: white;
+}
+.check{
+    border: 1px solid #3498eb;
+    width: 90%;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.check:hover{
+    background-color:#3498eb;
+    color: white;
+}
+.check:disabled{
+    color: #ccc;
+    cursor: not-allowed;
+}
