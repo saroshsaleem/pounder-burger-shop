@@ -1,0 +1,43 @@
+.formPage {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 30px 30px;
+  box-sizing: border-box;
+}
+.formPage .inputTag {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.formPage .inputTag input {
+  padding: 5px 20px;
+  border-radius: 4px;
+  width: 100%;
+  border-color: gray;
+}
+.formPage button {
+  margin-top: 10px;
+  padding: 10px 10px;
+  width: 100%;
+  background-color: #3498eb;
+  color: white;
+  border-radius: 4px;
+  border-color: transparent;
+}
+.formPage button:disabled {
+  cursor: not-allowed;
+  background-color: gray;
+}
+
+.link {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}/*# sourceMappingURL=Login.css.map */
