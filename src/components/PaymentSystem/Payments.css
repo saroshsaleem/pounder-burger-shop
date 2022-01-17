@@ -1,0 +1,25 @@
+.ContactUs {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.pick {
+  margin: 40px 10px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  width: auto;
+  border: 1px solid green;
+  font-size: 20px;
+}
+.pick:hover {
+  background-color: green;
+  color: white;
+}
+.pick:active {
+  background-color: green;
+  color: white;
+}
